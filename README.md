@@ -12,7 +12,7 @@ This repository contains a Node.js application that implements CRUD (Create, Rea
 - Implementation of relationships between users and organizations
 - Database seeding for initial data population
 
-#API Endpoints
+# API Endpoints
 
 ##Organizations:
 
@@ -34,7 +34,7 @@ This repository contains a Node.js application that implements CRUD (Create, Rea
 
 - POST /auth/login: Login to the application (generates JWT token)
   
-#Environment Variables
+# Environment Variables
 
 PORT: Port number for the server (default: 5000)
 MONGODB_URI: MongoDB connection URI
