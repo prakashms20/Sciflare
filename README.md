@@ -13,6 +13,7 @@ This repository contains a Node.js application that implements CRUD (Create, Rea
 - Database seeding for initial data population
 
 #API Endpoints
+
 ##Organizations:
 
 - GET /organization: Get all organizations
