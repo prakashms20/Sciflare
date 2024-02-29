@@ -3,7 +3,7 @@
 
 This repository contains a Node.js application that implements CRUD (Create, Read, Update, Delete) operations for organizations and users with roles and privileges. The application is built using Express.js for the backend, MongoDB for the database, and Passport.js for authentication.
 
-## Features
+# Features
 
 - CRUD operations for organizations
 - CRUD operations for users with roles and privileges under organizations
@@ -12,8 +12,8 @@ This repository contains a Node.js application that implements CRUD (Create, Rea
 - Implementation of relationships between users and organizations
 - Database seeding for initial data population
 
-##API Endpoints
-Organizations:
+#API Endpoints
+##Organizations:
 
 - GET /organization: Get all organizations
 - GET /organization/:id: Get organization by ID
@@ -21,7 +21,7 @@ Organizations:
 - PUT /organization/:id: Update organization by ID
 - DELETE /organization/:id: Delete organization by ID
 
-Users:
+##Users:
 
 - GET /user: Get all users
 - GET /user/:id: Get user by ID
@@ -29,11 +29,11 @@ Users:
 - PUT /user/:id: Update user by ID
 - DELETE /user/:id: Delete user by ID
   
-Authentication:
+##Authentication:
 
 - POST /auth/login: Login to the application (generates JWT token)
   
-##Environment Variables
+#Environment Variables
 
 PORT: Port number for the server (default: 5000)
 MONGODB_URI: MongoDB connection URI
